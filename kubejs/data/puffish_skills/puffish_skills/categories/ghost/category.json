@@ -1,0 +1,11 @@
+{
+  "unlocked_by_default": false,
+  "title": "Ghost",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "better_weaponry:iron_dagger"
+    }
+  },
+  "background": "minecraft:textures/block/deepslate.png"
+}

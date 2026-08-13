@@ -1,0 +1,11 @@
+{
+  "unlocked_by_default": true,
+  "title": "Choose Class",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "background": "minecraft:textures/block/deepslate.png"
+}

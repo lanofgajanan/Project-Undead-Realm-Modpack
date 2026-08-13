@@ -1,0 +1,11 @@
+{
+  "unlocked_by_default": false,
+  "title": "Chemist",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "minecraft:brewing_stand"
+    }
+  },
+  "background": "minecraft:textures/block/deepslate.png"
+}

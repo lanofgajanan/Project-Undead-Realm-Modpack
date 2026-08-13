@@ -1,0 +1,632 @@
+{
+	"class_root": {
+		"title": "Choose Your Path",
+		"description": "Select a specialization. This choice is permanent. Kill a mob to earn your first point.",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:nether_star"
+			}
+		},
+		"rewards": [],
+		"cost": 0,
+		"metadata": {
+			"icon": "ymkxszrex6r28xo2"
+		}
+	},
+	"pick_gunner": {
+		"title": "Gunner",
+		"description": "Master of firearms. Unlocks gun damage tree.",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:crossbow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "tag {player} add class_gunner"
+				}
+			}
+		],
+		"cost": 1,
+		"required_exclusions": 1,
+		"metadata": {
+			"icon": "lcpstgmfjcyych05"
+		}
+	},
+	"pick_brawler": {
+		"title": "Brawler",
+		"description": "Melee powerhouse. Unlocks melee damage tree.",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_sword"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "tag {player} add class_brawler"
+				}
+			}
+		],
+		"cost": 1,
+		"required_exclusions": 1,
+		"metadata": {
+			"icon": "urdwps14xylbc2a8"
+		}
+	},
+	"pick_technician": {
+		"title": "Technician",
+		"description": "Engineer. Unlocks mining and crafting tree.",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "immersiveengineering:hammer"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "tag {player} add class_technician"
+				}
+			}
+		],
+		"cost": 1,
+		"required_exclusions": 1,
+		"metadata": {
+			"icon": "h4zx79und3donmey"
+		}
+	},
+	"pick_medic": {
+		"title": "Medic",
+		"description": "Healer. Unlocks health and support tree.",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:golden_apple"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "tag {player} add class_medic"
+				}
+			}
+		],
+		"cost": 1,
+		"required_exclusions": 1,
+		"metadata": {
+			"icon": "j6nk122yyte55uti"
+		}
+	},
+	"pick_ghost": {
+		"title": "Ghost",
+		"description": "Stealth assassin. Unlocks speed and dagger tree.",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "better_weaponry:iron_dagger"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "tag {player} add class_ghost"
+				}
+			}
+		],
+		"cost": 1,
+		"required_exclusions": 1,
+		"metadata": {
+			"icon": "hfu6zcf1yo1ongue"
+		}
+	},
+	"pick_chemist": {
+		"title": "Chemist",
+		"description": "Poison specialist. Unlocks DoT and brewing tree.",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:brewing_stand"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "tag {player} add class_chemist"
+				}
+			}
+		],
+		"cost": 1,
+		"required_exclusions": 1,
+		"metadata": {
+			"icon": "5h3gwmqwo80as1re"
+		}
+	},
+	"pick_recon": {
+		"title": "Recon",
+		"description": "Scout. Unlocks mobility and sniper tree.",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:elytra"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "tag {player} add class_recon"
+				}
+			}
+		],
+		"cost": 1,
+		"required_exclusions": 1,
+		"metadata": {
+			"icon": "teuq56pg3emzlf82"
+		}
+	},
+	"pick_breacher": {
+		"title": "Breacher",
+		"description": "Demolition expert. Unlocks tank and explosives tree.",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "challenge"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:tnt"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "tag {player} add class_breacher"
+				}
+			}
+		],
+		"cost": 1,
+		"required_exclusions": 1,
+		"metadata": {
+			"icon": "d9gm5qo2vqy53p98"
+		}
+	},
+	"g_precision_1": {
+		"title": "Steady Aim",
+		"description": "+10% gun damage.",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:arrow"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "tacz_attributes:gun_damage",
+					"value": 0.1,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "fia7d2formm77bah"
+		}
+	},
+	"g_precision_2a": {
+		"title": "Hollow Point",
+		"description": "+15% gun damage.",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:fire_charge"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "tacz_attributes:gun_damage",
+					"value": 0.15,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "iusknxe3s3xdz64i"
+		}
+	},
+	"g_precision_2b": {
+		"title": "FMJ Rounds",
+		"description": "+50% bullet penetration.",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_nugget"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "tacz_attributes:pierce_multiplier",
+					"value": 0.5,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "f8bmpzzyw3q5306p"
+		}
+	},
+	"g_recoil_1": {
+		"title": "Recoil Control",
+		"description": "-15% recoil.",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:chain"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "tacz_attributes:recoil",
+					"value": -0.15,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "aehr4c5f46mrdwb5"
+		}
+	},
+	"g_recoil_2a": {
+		"title": "Iron Wrists",
+		"description": "-25% recoil.",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_ingot"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "tacz_attributes:recoil",
+					"value": -0.25,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "f5csz17opy1xn6tn"
+		}
+	},
+	"g_recoil_2b": {
+		"title": "Compensator Mind",
+		"description": "-30% vertical recoil.",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:piston"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "tacz_attributes:vertical_recoil",
+					"value": -0.3,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "d4p45etdsicurxr2"
+		}
+	},
+	"g_reload_1": {
+		"title": "Speed Loader",
+		"description": "+15% reload speed.",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:clock"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "tacz_attributes:reload_speed",
+					"value": 0.15,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "1ok5teygcec0mis2"
+		}
+	},
+	"g_reload_2a": {
+		"title": "Tactical Reload",
+		"description": "+25% reload speed.",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:hopper"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "tacz_attributes:reload_speed",
+					"value": 0.25,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "tpi8k3uj5vipsb9w"
+		}
+	},
+	"g_reload_2b": {
+		"title": "Extended Mags",
+		"description": "+20% magazine capacity.",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:barrel"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "tacz_attributes:magazine_capacity",
+					"value": 0.2,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "dwnn985wme5qess7"
+		}
+	},
+	"g_headshot_1": {
+		"title": "Weak Spot",
+		"description": "+15% headshot multiplier.",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:skeleton_skull"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "tacz_attributes:headshot_multiplier",
+					"value": 0.15,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "jkdm7omf783q4zkf"
+		}
+	},
+	"g_headshot_2a": {
+		"title": "Execution",
+		"description": "+30% headshot multiplier.",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "goal"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:wither_skeleton_skull"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "tacz_attributes:headshot_multiplier",
+					"value": 0.3,
+					"operation": "multiply_base"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "0ptz0534664jkf8n"
+		}
+	},
+	"g_vitality_1": {
+		"title": "Bulletproof Vest",
+		"description": "+4 max health.",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:iron_chestplate"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.max_health",
+					"value": 4,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "gv187zqz4uajfrsh"
+		}
+	},
+	"g_vitality_2a": {
+		"title": "Trauma Plates",
+		"description": "+6 max health.",
+		"frame": {
+			"type": "advancement",
+			"data": {
+				"frame": "task"
+			}
+		},
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "minecraft:diamond_chestplate"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "minecraft:generic.max_health",
+					"value": 6,
+					"operation": "addition"
+				}
+			}
+		],
+		"metadata": {
+			"icon": "t5i7o7nw58z8qvpe"
+		}
+	}
+}

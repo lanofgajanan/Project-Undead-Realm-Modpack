@@ -1,0 +1,11 @@
+{
+  "unlocked_by_default": false,
+  "title": "Breacher",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "minecraft:tnt"
+    }
+  },
+  "background": "minecraft:textures/block/deepslate.png"
+}

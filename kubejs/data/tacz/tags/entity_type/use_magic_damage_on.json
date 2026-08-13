@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "spore:brute",
+    "spore:wendigo",
+    "spore:axtwerfer",
+    "spore:grober",
+    "spore:inquisitor",
+    "spore:ogre",
+    "spore:hexenmeister",
+    "spore:specter",
+    "spore:reaper",
+    "spore:vanguard",
+    "spore:proto",
+    "spore:hivetumor",
+    "spore:inf_construct",
+    "spore:sieger",
+    "spore:stahlmorder",
+    "spore:hohlfresser",
+    "spore:gazenbrecher",
+    "spore:grakensenker",
+    "spore:leviathan",
+    "spore:howitzer",
+    "spore:hindenburg"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "unlocked_by_default": false,
+  "title": "Technician",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "immersiveengineering:hammer"
+    }
+  },
+  "background": "minecraft:textures/block/deepslate.png"
+}

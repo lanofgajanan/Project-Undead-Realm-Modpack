@@ -1,0 +1,11 @@
+{
+  "unlocked_by_default": true,
+  "title": "Drifter",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "minecraft:map"
+    }
+  },
+  "background": "minecraft:textures/block/stone.png"
+}

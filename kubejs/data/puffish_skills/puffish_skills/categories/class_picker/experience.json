@@ -1,0 +1,29 @@
+{
+  "level_limit": 2,
+  "experience_per_level": {
+    "type": "values",
+    "data": {
+      "values": [
+        1,
+        99999
+      ]
+    }
+  },
+  "sources": [
+    {
+      "type": "puffish_skills:kill_entity",
+      "data": {
+        "variables": {
+          "dropped_xp": {
+            "operations": [
+              {
+                "type": "get_dropped_experience"
+              }
+            ]
+          }
+        },
+        "experience": "dropped_xp"
+      }
+    }
+  ]
+}

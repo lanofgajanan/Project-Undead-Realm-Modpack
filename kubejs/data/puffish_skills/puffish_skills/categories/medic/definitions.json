@@ -1,0 +1,2204 @@
+{
+  "m_cap1": {
+    "title": "Chief Medical Officer",
+    "description": "+4 Max Health, +0.008 Movement Speed. You command the field hospital. Authority earned through blood and competence.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 4,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.008,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_cap2a": {
+    "title": "Legendary Medic",
+    "description": "+8 Max Health, +0.01 Movement Speed. Survivors whisper your name. You've pulled people back from the abyss a hundred times.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:enchanted_golden_apple"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 8,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_cap2b": {
+    "title": "Living Legend",
+    "description": "+6 Max Health, +0.012 Movement Speed, +2 Attack Damage. The complete medic. Heals, fights, survives. Everything the apocalypse needs.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 6,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.012,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 2,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_cap3aa": {
+    "title": "Immortal Resolve",
+    "description": "+10 Max Health. You've stared death in the face so many times it stopped trying. Maximum vitality achieved.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:totem_of_undying"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 10,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_cap3ab": {
+    "title": "Guardian Angel",
+    "description": "+6 Max Health, +0.2 Knockback Resistance. Nothing reaches the people behind you. An immovable shield of flesh and will.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:shield"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 6,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 0.2,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_cap3ba": {
+    "title": "Apex Healer",
+    "description": "+4 Attack Damage, +4 Max Health. The medic who also happens to be the deadliest fighter in the squad.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:diamond_sword"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 4,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 4,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_cap3bb": {
+    "title": "God Complex",
+    "description": "+6 Max Health, +0.015 Movement Speed, +0.15 Knockback Resistance. You decide who lives and who dies. And you always live.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:beacon"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 6,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.015,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 0.15,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_cm1": {
+    "title": "Combat Medic",
+    "description": "+2 Attack Damage. Scalpels work on the living and the dead. You know where to cut to stop anything.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 2,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_cm2a": {
+    "title": "Surgical Strike",
+    "description": "+3 Attack Damage. Target nerve clusters and arterial junctions. Medical knowledge weaponized.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:diamond_sword"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 3,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_cm2b": {
+    "title": "Defensive Blade",
+    "description": "+1 Attack Damage, +4 Max Health. Fight to survive, not to kill. Every swing buys time for the real weapon: medicine.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:shield"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 1,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 4,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_cm3aa": {
+    "title": "Anatomist",
+    "description": "+4 Attack Damage. You know every tendon, every joint, every weakness. The dead fall apart with surgical efficiency.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bone"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 4,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_cm3ab": {
+    "title": "Mercy Kill",
+    "description": "+3 Attack Damage, +0.01 Movement Speed. End suffering fast. Close distance, one clean cut, move on.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_sword"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 3,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_cm3ba": {
+    "title": "Unbreakable Resolve",
+    "description": "+6 Max Health. The will to save others makes you harder to kill. Purpose is the best armor.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:totem_of_undying"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 6,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_cm3bb": {
+    "title": "Warrior Healer",
+    "description": "+2 Attack Damage, +4 Max Health. You heal AND you hurt. The complete combat medic  -  feared by the infected.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_sword"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 2,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 4,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_fs1": {
+    "title": "Field Surgery",
+    "description": "+0.2 Attack Speed. Steady hands, fast hands. You operate under conditions that would make surgeons faint.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:shears"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": 0.2,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_fs2a": {
+    "title": "Precision Cuts",
+    "description": "+0.3 Attack Speed, +1 Attack Damage. Every incision deliberate, every strike lethal. Anatomy is your weapon.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_sword"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": 0.3,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_fs2b": {
+    "title": "Calm Under Pressure",
+    "description": "+0.2 Attack Speed, +3 Max Health. When chaos erupts, you get calmer. Slow pulse, fast hands, clear head.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:clock"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": 0.2,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 3,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_fs3aa": {
+    "title": "Nerve Surgeon",
+    "description": "+0.5 Attack Speed, +2 Attack Damage. Target nerve bundles with machine precision. The dead drop instantly.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:diamond_sword"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 2,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_fs3ab": {
+    "title": "Trauma Specialist",
+    "description": "+0.3 Attack Speed, +4 Max Health. You specialize in trauma  -  both inflicting it and surviving it.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:experience_bottle"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": 0.3,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 4,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_fs3ba": {
+    "title": "Bone Setter",
+    "description": "+5 Max Health. Know how bones fit together means knowing how to keep yours intact. Structural mastery.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bone_block"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 5,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_fs3bb": {
+    "title": "Master Surgeon",
+    "description": "+0.4 Attack Speed, +2 Attack Damage, +2 Max Health. The complete package. Fast, lethal, nearly unkillable.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_sword"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": 0.4,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_damage",
+          "value": 2,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 2,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_im1": {
+    "title": "Immunity",
+    "description": "+3 Max Health. Enhanced immune system. The spore can't get a foothold in your bloodstream.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:milk_bucket"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 3,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_im2a": {
+    "title": "Disease Resistant",
+    "description": "+5 Max Health. Your white blood cells are monsters themselves. Nothing foreign survives inside you.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:ghast_tear"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 5,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_im2b": {
+    "title": "Adaptive Biology",
+    "description": "+2 Max Health, +1 Luck. Your body learns from every encounter. Even bad luck teaches your cells something.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:fermented_spider_eye"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 2,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.luck",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_im3aa": {
+    "title": "Antibody Factory",
+    "description": "+7 Max Health. Your immune system mass-produces countermeasures. Every threat met and neutralized.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:brewing_stand"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 7,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_im3ab": {
+    "title": "Mutant Resilience",
+    "description": "+4 Max Health, +0.1 Knockback Resistance. Your biology adapted to the apocalypse. Stronger, tougher, inhuman.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:dragon_breath"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 4,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_im3ba": {
+    "title": "Lucky Survivor",
+    "description": "+2 Luck. You always find medicine when you need it. The universe owes you for all you've endured.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:rabbit_foot"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.luck",
+          "value": 2,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_im3bb": {
+    "title": "Phoenix Blood",
+    "description": "+4 Max Health, +1 Luck. Your blood contains the cure to things that shouldn't have cures. Lucky AND immortal.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:blaze_powder"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 4,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.luck",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_rc1": {
+    "title": "Recovery",
+    "description": "+3 Max Health. You bounce back from injuries that would hospitalize others. Built different.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:potion"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 3,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_rc2a": {
+    "title": "Rapid Healing",
+    "description": "+5 Max Health. Wounds close in hours, not days. Your metabolism is a furnace burning through damage.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glistering_melon_slice"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 5,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_rc2b": {
+    "title": "Pain Management",
+    "description": "+2 Max Health, +0.01 Movement Speed. Control the pain, control the body. Keep moving regardless of wounds.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:spider_eye"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 2,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_rc3aa": {
+    "title": "Regeneration Factor",
+    "description": "+8 Max Health. Your cells divide at superhuman rates. What kills others barely slows you down.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:enchanted_golden_apple"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 8,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_rc3ab": {
+    "title": "Second Wind",
+    "description": "+4 Max Health, +0.012 Movement Speed. Hit the wall? Push through it. Your body finds reserves that don't exist.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:wind_charge"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 4,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.012,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_rc3ba": {
+    "title": "Endorphin Rush",
+    "description": "+0.015 Movement Speed. Pain triggers speed. The worse you hurt, the faster you move. Biology's last defense.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:firework_rocket"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.015,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_rc3bb": {
+    "title": "Undying Constitution",
+    "description": "+5 Max Health, +0.008 Movement Speed. Your body simply refuses to quit. Death gets tired of trying.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:respawn_anchor"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 5,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.008,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_rs1": {
+    "title": "Steady Stance",
+    "description": "+0.15 Knockback Resistance. Planted feet, steady hands. You don't flinch when the infected charge.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:chain"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 0.15,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_rs2a": {
+    "title": "Unshakeable",
+    "description": "+0.2 Knockback Resistance. Medical staff don't panic. You've seen worse in the field hospital  -  stay rooted.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:anvil"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 0.2,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_rs2b": {
+    "title": "Reactive Guard",
+    "description": "+0.1 Knockback Resistance, +3 Max Health. Absorb impact, heal damage. A self-repairing wall.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:shield"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 3,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_rs3aa": {
+    "title": "Immovable Object",
+    "description": "+0.3 Knockback Resistance. You ARE the rallying point. The squad forms up behind you because nothing moves you.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bedrock"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 0.3,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_rs3ab": {
+    "title": "Fortress Medic",
+    "description": "+0.15 Knockback Resistance, +4 Max Health. Rooted deep with vitality to spare. The anchor of any team.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:obsidian"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 0.15,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 4,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_rs3ba": {
+    "title": "Regenerative Tank",
+    "description": "+6 Max Health. Your body regenerates so fast that what pushes you back just fuels more growth.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:heart_of_the_sea"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 6,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_rs3bb": {
+    "title": "Living Barricade",
+    "description": "+4 Max Health, +0.15 Knockback Resistance. Part healer, part wall. The infected pile up against you uselessly.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_block"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 4,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 0.15,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_sr1": {
+    "title": "Swift Response",
+    "description": "+0.01 Movement Speed. Every second counts in triage. You sprint to the wounded before they bleed out.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:feather"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_sr2a": {
+    "title": "Emergency Sprint",
+    "description": "+0.015 Movement Speed. Adrenaline-fueled bursts carry you across the battlefield in heartbeats.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_boots"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.015,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_sr2b": {
+    "title": "Nimble Healer",
+    "description": "+0.008 Movement Speed, +3 Max Health. Fast enough to dodge, tough enough to take a hit. Perfect field medic.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_boots"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.008,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 3,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_sr3aa": {
+    "title": "First Responder",
+    "description": "+0.02 Movement Speed. You arrive before the screaming stops. Speed saves more lives than any drug.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:elytra"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_sr3ab": {
+    "title": "Ambulance",
+    "description": "+0.012 Movement Speed, +4 Max Health. Mobile medical unit. You carry the hospital on your back at full sprint.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:minecart"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.012,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 4,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_sr3ba": {
+    "title": "Trauma Response",
+    "description": "+5 Max Health. Your body learned to prepare for damage before it arrives. Pre-emptive resilience.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 5,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_sr3bb": {
+    "title": "Field Marathon",
+    "description": "+0.01 Movement Speed, +3 Max Health. Run all day carrying wounded. Your endurance is legend among survivors.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:compass"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 3,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_tg1": {
+    "title": "Toughness",
+    "description": "+4 Max Health. Dense bones and thick skin. You take hits like a heavy bag  -  and hit back.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_chestplate"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 4,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_tg2a": {
+    "title": "Unbreakable",
+    "description": "+6 Max Health. What doesn't kill you makes you harder. And nothing has killed you yet.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_ingot"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 6,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_tg2b": {
+    "title": "Flexible Frame",
+    "description": "+2 Max Health, +0.008 Movement Speed, +0.1 Knockback Resistance. Bend don't break. Absorb, redirect, survive.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:slime_ball"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 2,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.008,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_tg3aa": {
+    "title": "Adamantine Body",
+    "description": "+8 Max Health. Your body density rivals steel. The infected shatter their own fists punching you.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:diamond_block"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 8,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_tg3ab": {
+    "title": "Vitality Engine",
+    "description": "+5 Max Health, +0.1 Knockback Resistance. A biological powerplant. Energy to heal, mass to absorb.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:redstone_block"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 5,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_tg3ba": {
+    "title": "Natural Armor",
+    "description": "+0.2 Knockback Resistance. Your body grew its own protection. Calcium deposits harder than any plate carrier.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:turtle_helmet"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 0.2,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_tg3bb": {
+    "title": "Living Fortress",
+    "description": "+4 Max Health, +0.15 Knockback Resistance. The ultimate medic tank. Unkillable, unmovable, unstoppable.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:crying_obsidian"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 4,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 0.15,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_tr1": {
+    "title": "Triage",
+    "description": "+3 Max Health. First rule of field medicine: keep yourself alive so you can keep others alive.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:red_bed"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 3,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_tr2a": {
+    "title": "Emergency Protocol",
+    "description": "+5 Max Health. When vitals crash, your training takes over. Body stabilizes through pure medical instinct.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:red_dye"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 5,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_tr2b": {
+    "title": "Quick Patch",
+    "description": "+2 Max Health, +0.2 Attack Speed. Patch wounds in combat. Fast hands save lives  -  including your own.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:paper"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 2,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": 0.2,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_tr3aa": {
+    "title": "Critical Care",
+    "description": "+7 Max Health. You stabilize the unstabilizable. Death has to work harder when you're around.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:totem_of_undying"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 7,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_tr3ab": {
+    "title": "Adrenaline Surge",
+    "description": "+4 Max Health, +0.01 Movement Speed. Emergency hormones flood your system. Faster, stronger, harder to kill.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:sugar"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 4,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_tr3ba": {
+    "title": "Surgical Speed",
+    "description": "+0.4 Attack Speed. Your hands move with surgical precision at inhuman speed. Scalpel or machete  -  same technique.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:shears"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": 0.4,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_tr3bb": {
+    "title": "Combat Surgeon",
+    "description": "+3 Max Health, +0.3 Attack Speed. Operate under fire. Stitch wounds between swings. The ultimate field medic.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 3,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.attack_speed",
+          "value": 0.3,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_vt1": {
+    "title": "Healthy Body",
+    "description": "+4 Max Health. Clean living in a dirty world. You take care of yourself when nobody else will.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:apple"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 4,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_vt2a": {
+    "title": "Peak Condition",
+    "description": "+6 Max Health. Your body is a temple built for survival. Every organ optimized, every system tuned.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 6,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_vt2b": {
+    "title": "Balanced Vitality",
+    "description": "+3 Max Health, +0.008 Movement Speed. Health AND agility. The best medics arrive fast and stay standing.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_carrot"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 3,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.008,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_vt3aa": {
+    "title": "Pinnacle",
+    "description": "+8 Max Health. Medical knowledge turned inward. You've engineered your own body beyond natural limits.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:enchanted_golden_apple"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 8,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_vt3ab": {
+    "title": "Cardiovascular Elite",
+    "description": "+4 Max Health, +0.01 Movement Speed. A heart that won't quit and legs that carry you through hell.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:rabbit_foot"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 4,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_vt3ba": {
+    "title": "Iron Blood",
+    "description": "+0.15 Knockback Resistance. Fortified circulatory system. Impacts that stagger others barely register.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 0.15,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "m_vt3bb": {
+    "title": "Bio-Fortress",
+    "description": "+4 Max Health, +0.1 Knockback Resistance. Your biology is a fortress. Pathogens bounce off, impacts absorbed.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_chestplate"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 4,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  }
+}

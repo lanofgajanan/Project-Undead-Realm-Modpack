@@ -1,0 +1,324 @@
+{
+  "class_root": {
+    "title": "Choose Your Path",
+    "description": "Select a specialization. This choice is permanent.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    "rewards": [],
+    "cost": 0
+  },
+  "pick_brawler": {
+    "title": "Brawler",
+    "description": "Melee powerhouse.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "class_brawler"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "function undead_realm:kit/brawler"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "puffish_skills category unlock @s puffish_skills:brawler"
+        }
+      }
+    ],
+    "cost": 0,
+    "required_skills": 0
+  },
+  "pick_breacher": {
+    "title": "Breacher",
+    "description": "Demolition expert.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:tnt"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "class_breacher"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "function undead_realm:kit/breacher"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "puffish_skills category unlock @s puffish_skills:breacher"
+        }
+      }
+    ],
+    "cost": 0,
+    "required_skills": 0
+  },
+  "pick_chemist": {
+    "title": "Chemist",
+    "description": "Poison specialist.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:brewing_stand"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "class_chemist"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "function undead_realm:kit/chemist"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "puffish_skills category unlock @s puffish_skills:chemist"
+        }
+      }
+    ],
+    "cost": 0,
+    "required_skills": 0
+  },
+  "pick_ghost": {
+    "title": "Ghost",
+    "description": "Stealth assassin.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "better_weaponry:iron_dagger"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "class_ghost"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "function undead_realm:kit/ghost"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "puffish_skills category unlock @s puffish_skills:ghost"
+        }
+      }
+    ],
+    "cost": 0,
+    "required_skills": 0
+  },
+  "pick_gunner": {
+    "title": "Gunner",
+    "description": "Master of firearms.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:crossbow"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "class_gunner"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "function undead_realm:kit/gunner"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "puffish_skills category unlock @s puffish_skills:gunner"
+        }
+      }
+    ],
+    "cost": 0,
+    "required_skills": 0
+  },
+  "pick_medic": {
+    "title": "Medic",
+    "description": "Healer.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "class_medic"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "function undead_realm:kit/medic"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "puffish_skills category unlock @s puffish_skills:medic"
+        }
+      }
+    ],
+    "cost": 0,
+    "required_skills": 0
+  },
+  "pick_recon": {
+    "title": "Recon",
+    "description": "Scout and sniper.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:elytra"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "class_recon"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "function undead_realm:kit/recon"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "puffish_skills category unlock @s puffish_skills:recon"
+        }
+      }
+    ],
+    "cost": 0,
+    "required_skills": 0
+  },
+  "pick_technician": {
+    "title": "Technician",
+    "description": "Engineer.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "immersiveengineering:hammer"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "class_technician"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "function undead_realm:kit/technician"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "puffish_skills category unlock @s puffish_skills:technician"
+        }
+      }
+    ],
+    "cost": 0,
+    "required_skills": 0
+  }
+}

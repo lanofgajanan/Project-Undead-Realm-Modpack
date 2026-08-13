@@ -1,0 +1,11 @@
+{
+  "unlocked_by_default": false,
+  "title": "Recon",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "minecraft:elytra"
+    }
+  },
+  "background": "minecraft:textures/block/deepslate.png"
+}

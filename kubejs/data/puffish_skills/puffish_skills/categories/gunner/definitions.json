@@ -1,0 +1,2164 @@
+{
+  "g_a1": {
+    "title": "Quick Scope",
+    "description": "Snap to sights in a heartbeat. When infected burst through doorways, you're already aimed.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:spyglass"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:ads_speed",
+          "value": 0.15,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_a2a": {
+    "title": "Dead Eye",
+    "description": "Down the sights, everything sharpens. Your focused aim turns each bullet into a scalpel.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:ender_eye"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:ads_damage",
+          "value": 0.12,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_a2b": {
+    "title": "Hip Fire Pro",
+    "description": "Who needs sights? Point shooting perfected  -  your barrel IS your crosshair.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:blaze_powder"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:hip_fire_damage",
+          "value": 0.12,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_a3aa": {
+    "title": "Marksman Elite",
+    "description": "Devastating precision while scoped. Every ADS shot carries the weight of a sniper round  -  methodical, lethal.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:target"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:ads_damage",
+          "value": 0.18,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_a3ab": {
+    "title": "Scope Stability",
+    "description": "Rock-steady aim down sights. Enhanced ADS damage paired with pinpoint scope accuracy.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:amethyst_shard"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:ads_damage",
+          "value": 0.1,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:ads_accuracy",
+          "value": 0.2,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_a3ba": {
+    "title": "Spray Master",
+    "description": "Controlled chaos from the hip. Your unaimed fire tears through clusters of infected like a buzzsaw.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:dispenser"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:hip_fire_damage",
+          "value": 0.18,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_a3bb": {
+    "title": "Point Blank Specialist",
+    "description": "Devastating at close range without sights. Hip fire damage boosted with tighter spread for CQB dominance.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:fire_charge"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:hip_fire_damage",
+          "value": 0.1,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:hip_fire_accuracy",
+          "value": 0.2,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_cap1": {
+    "title": "Operator",
+    "description": "+8% Gun Damage, +3 Max Health. Full kit, full training, full lethality. A complete firearms platform.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:crossbow"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:gun_damage",
+          "value": 0.08,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 3,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_cap2a": {
+    "title": "Elite Marksman",
+    "description": "+12% Gun Damage, +4 Max Health. Top-tier operator. Every shot surgical, every engagement won.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:spectral_arrow"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:gun_damage",
+          "value": 0.12,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 4,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_cap2b": {
+    "title": "Battle Hardened",
+    "description": "+8% Gun Damage, +0.012 Movement Speed, +2 Max Health. Seasoned warrior. Fast, lethal, nearly unkillable.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:gun_damage",
+          "value": 0.08,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.012,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 2,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_cap3aa": {
+    "title": "God of Guns",
+    "description": "+18% Gun Damage, +4 Max Health. The ultimate marksman. Every bullet finds its mark. Every shot ends a threat.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:gun_damage",
+          "value": 0.18,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 4,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_cap3ab": {
+    "title": "Deadeye Legend",
+    "description": "+15% Gun Damage, +0.15 Knockback Resistance. Immovable. Unerring. The last thing they see is your muzzle flash.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:trident"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:gun_damage",
+          "value": 0.15,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 0.15,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_cap3ba": {
+    "title": "Bullet Storm",
+    "description": "+12% Gun Damage, +0.015 Movement Speed. Run and gun perfected. A mobile storm of lead and precision.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:firework_rocket"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:gun_damage",
+          "value": 0.12,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.015,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_cap3bb": {
+    "title": "One Man Army",
+    "description": "+10% Gun Damage, +5 Max Health, +0.01 Movement Speed. The apex gunner. Firepower, survivability, mobility. Everything.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:beacon"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:gun_damage",
+          "value": 0.1,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 5,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_e1": {
+    "title": "Endurance",
+    "description": "+3 Max Health. Long patrols toughened your body. You outlast your ammunition.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 3,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_e2a": {
+    "title": "Iron Lungs",
+    "description": "+5 Max Health. You can hold position for hours. Deep breathing keeps you alive and aimed.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_chestplate"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 5,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_e2b": {
+    "title": "Combat Fitness",
+    "description": "+2 Max Health, +0.008 Movement Speed. Run and gun conditioning. Tough enough to stand, fast enough to reposition.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_boots"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 2,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.008,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_e3aa": {
+    "title": "Bulletproof",
+    "description": "+7 Max Health. You've taken so many hits your body stopped noticing. Pain is just data.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_chestplate"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 7,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_e3ab": {
+    "title": "Marathon Shooter",
+    "description": "+4 Max Health, +0.01 Movement Speed. Endurance for the long fight. Sprint to cover, stay alive, keep firing.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_boots"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 4,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_e3ba": {
+    "title": "Quick Feet",
+    "description": "+0.012 Movement Speed. Fast repositioning. Never stay in one place long enough to get swarmed.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:feather"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.012,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_e3bb": {
+    "title": "War Veteran",
+    "description": "+4 Max Health, +0.008 Movement Speed. Years of combat forged an unstoppable soldier. Tough, fast, experienced.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_helmet"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 4,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.008,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_h1": {
+    "title": "Weak Spot",
+    "description": "You've studied the infected long enough to know where skull meets spine. Aim there.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:skeleton_skull"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:headshot_multiplier",
+          "value": 0.12,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_h2a": {
+    "title": "Execution",
+    "description": "One clean shot to the temple. The lights go out before they even know you're there.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:wither_skeleton_skull"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:headshot_multiplier",
+          "value": 0.25,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_h2b": {
+    "title": "Crippling Shot",
+    "description": "Aim for the brainstem  -  disable motor function. They drop whether you kill them or not.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bone"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:headshot_multiplier",
+          "value": 0.15,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:gun_damage",
+          "value": 0.05,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_h3aa": {
+    "title": "One Tap",
+    "description": "A single bullet. A single kill. Your headshots delete threats from existence  -  no second chances needed.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:ender_eye"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:headshot_multiplier",
+          "value": 0.35,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_h3ab": {
+    "title": "Cranial Cascade",
+    "description": "Headshots that pierce through to the next skull in line. Pop one head, damage the one behind it.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:chain"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:headshot_multiplier",
+          "value": 0.2,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:pierce_multiplier",
+          "value": 0.4,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_h3ba": {
+    "title": "Surgical Precision",
+    "description": "Impossible accuracy under pressure. Even sprinting through a horde, your crosshair finds the kill zone.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:shears"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:headshot_multiplier",
+          "value": 0.2,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:ads_accuracy",
+          "value": 0.15,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_h3bb": {
+    "title": "Nerve Shredder",
+    "description": "Your headshots scramble the nervous system. Devastating cranial damage combined with raw stopping force.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:fermented_spider_eye"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:headshot_multiplier",
+          "value": 0.15,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:gun_damage",
+          "value": 0.12,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_m1": {
+    "title": "Combat Roll",
+    "description": "Stay mobile, stay alive. You've learned to shoot accurately even while repositioning.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_boots"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:gun_movement_speed",
+          "value": 0.08,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_m2a": {
+    "title": "Run & Gun",
+    "description": "Full sprint, full accuracy. The dead can't catch what they can't corner.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:rabbit_foot"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:gun_movement_speed",
+          "value": 0.12,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_m2b": {
+    "title": "Low Profile",
+    "description": "Light on your feet. Move like a whisper through the ruins  -  faster, quieter, deadlier.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:feather"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_m3aa": {
+    "title": "Sprint Fire",
+    "description": "Full-bore sprinting with pinpoint accuracy. You're a moving fortress  -  impossible to pin down, impossible to outrun.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:sugar"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:gun_movement_speed",
+          "value": 0.15,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_m3ab": {
+    "title": "Hip Fire Dancer",
+    "description": "Mobile warfare perfected. Dodge and weave while laying down accurate hip fire  -  a nightmare to pin down.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:blaze_rod"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:gun_movement_speed",
+          "value": 0.08,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:hip_fire_accuracy",
+          "value": 0.15,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_m3ba": {
+    "title": "Ghost Step",
+    "description": "Silent and swift as a phantom. Raw speed that lets you outpace even sprinting infected.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:phantom_membrane"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.015,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_m3bb": {
+    "title": "Tactical Athlete",
+    "description": "Peak physical conditioning. Faster legs AND better weapon handling on the move  -  the complete package.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_boots"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.008,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:gun_movement_speed",
+          "value": 0.08,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_p1": {
+    "title": "Steady Aim",
+    "description": "Breathe slow. Squeeze, don't pull. Every bullet counts when the dead are at your door.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:arrow"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:gun_damage",
+          "value": 0.08,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_p2a": {
+    "title": "Hollow Points",
+    "description": "Expanding rounds that tear through rotting flesh. Maximum tissue damage on soft targets.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:fire_charge"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:gun_damage",
+          "value": 0.12,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_p2b": {
+    "title": "FMJ Rounds",
+    "description": "Full metal jacket. Punches clean through bone and armor  -  line them up and drop two with one trigger pull.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_nugget"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:pierce_multiplier",
+          "value": 0.5,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_p3aa": {
+    "title": "Stopping Power",
+    "description": "Each round hits like a sledgehammer. Even the biggest infected stumble backwards when you land a center-mass shot.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:spectral_arrow"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:gun_damage",
+          "value": 0.18,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_p3ab": {
+    "title": "Brutal Impact",
+    "description": "Your rounds cave in ribcages. Massive knockback sends the horde tumbling over each other.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:slime_ball"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:gun_damage",
+          "value": 0.1,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:knockback_multiplier",
+          "value": 0.6,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_p3ba": {
+    "title": "Penetrator",
+    "description": "Tungsten-core rounds that ignore cover entirely. Shoot through walls, doors, and the infected hiding behind them.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:pointed_dripstone"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:pierce_multiplier",
+          "value": 0.8,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_p3bb": {
+    "title": "Armor Shredder",
+    "description": "Specialized AP rounds that strip away protection. Pierce through AND deal bonus damage to armored threats.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_scrap"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:pierce_multiplier",
+          "value": 0.5,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:gun_damage",
+          "value": 0.1,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_r1": {
+    "title": "Recoil Control",
+    "description": "Muscle memory from countless firefights. Your wrists absorb shock like pistons.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:chain"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:recoil",
+          "value": -0.12,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_r2a": {
+    "title": "Iron Wrists",
+    "description": "Your forearms are like steel cables. Full-auto feels like semi-auto used to.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:recoil",
+          "value": -0.2,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_r2b": {
+    "title": "Compensator Mind",
+    "description": "You instinctively counter muzzle climb. Vertical kick becomes a gentle nudge.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:piston"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:vertical_recoil",
+          "value": -0.25,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_r3aa": {
+    "title": "Dead Steady",
+    "description": "Absolute stillness under fire. Your muzzle barely twitches  -  even during sustained automatic bursts at the horde.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:anvil"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:recoil",
+          "value": -0.3,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_r3ab": {
+    "title": "Spray Surgeon",
+    "description": "Less kick means more hits. Your controlled recoil translates directly into higher effective DPS.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:shears"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:recoil",
+          "value": -0.15,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:auto_damage",
+          "value": 0.1,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_r3ba": {
+    "title": "Zero Drift",
+    "description": "Horizontal sway eliminated. Your crosshair tracks in a perfect vertical line  -  no lateral jitter whatsoever.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:rail"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:horizontal_recoil",
+          "value": -0.35,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_r3bb": {
+    "title": "Laser Beam",
+    "description": "Both axes locked down. Your gun climbs predictably  -  zero horizontal AND reduced vertical. Pure beam accuracy.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:end_rod"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:vertical_recoil",
+          "value": -0.2,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:horizontal_recoil",
+          "value": -0.2,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_rl1": {
+    "title": "Speed Loader",
+    "description": "Muscle memory kicks in. Mag changes are second nature  -  you barely think about it anymore.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:clock"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:reload_speed",
+          "value": 0.12,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_rl2a": {
+    "title": "Tactical Reload",
+    "description": "Combat reload perfected. Drop mag, seat fresh one, rack  -  all in one fluid motion while moving.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:hopper"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:reload_speed",
+          "value": 0.2,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_rl2b": {
+    "title": "Extended Mags",
+    "description": "Jury-rigged extensions welded onto standard magazines. More rounds before you're caught empty.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:barrel"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:magazine_capacity",
+          "value": 0.2,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_rl3aa": {
+    "title": "Lightning Hands",
+    "description": "Blink and you'll miss it. Your reload is so fast the infected never get a free lunge window.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:lightning_rod"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:reload_speed",
+          "value": 0.3,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_rl3ab": {
+    "title": "Bolt Mastery",
+    "description": "Chamber a fresh round instantly. Bolt-actions and pump-actions cycle like semi-autos in your hands.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:lever"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:reload_speed",
+          "value": 0.15,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:bolt_action_speed",
+          "value": 0.25,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_rl3ba": {
+    "title": "Drum Mags",
+    "description": "Salvaged drum magazines from a military convoy. Hold a staggering amount of rounds  -  spray all day.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:cauldron"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:magazine_capacity",
+          "value": 0.3,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_rl3bb": {
+    "title": "Bottomless Belt",
+    "description": "Extended capacity AND ammo conservation. Each mag lasts an eternity  -  the horde runs out before your bullets do.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:chest"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:magazine_capacity",
+          "value": 0.15,
+          "operation": "multiply_base"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:ammo_save_chance",
+          "value": 0.08,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_s1": {
+    "title": "Stability",
+    "description": "+0.1 Knockback Resistance. Planted like a turret. Nothing moves you off your firing position.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:chain"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_s2a": {
+    "title": "Iron Stance",
+    "description": "+0.15 Knockback Resistance. Recoil? What recoil? Your body absorbs everything. Steady as bedrock.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:anvil"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 0.15,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_s2b": {
+    "title": "Braced Position",
+    "description": "+0.1 Knockback Resistance, +3 Max Health. Lock in and hold. The horde breaks against you like waves.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:shield"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 3,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_s3aa": {
+    "title": "Immovable Gunner",
+    "description": "+0.2 Knockback Resistance. They push, you shoot. They push harder, you shoot more. Simple physics.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:obsidian"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 0.2,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_s3ab": {
+    "title": "Living Turret",
+    "description": "+0.15 Knockback Resistance, +3 Max Health. A fortified firing platform made of flesh and determination.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_block"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 0.15,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 3,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_s3ba": {
+    "title": "Deep Roots",
+    "description": "+4 Max Health. Your body is dense and grounded. Nothing pulls you from your shooting position.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:deepslate"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 4,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_s3bb": {
+    "title": "Fortress Gunner",
+    "description": "+0.15 Knockback Resistance, +4 Max Health. Part bunker, part marksman. They'll never breach your position.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:reinforced_deepslate"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 0.15,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 4,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_v1": {
+    "title": "Bulletproof Vest",
+    "description": "Scavenged Kevlar stitched into your jacket. Won't stop a tank round, but infected claws? Easy.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_chestplate"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 4,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_v2a": {
+    "title": "Trauma Plates",
+    "description": "Ceramic inserts over vital organs. You can take hits that would drop most survivors.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:diamond_chestplate"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 6,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_v2b": {
+    "title": "Adrenaline Rush",
+    "description": "Pain fuels your combat high. Your body floods with chemicals that keep you moving when others fold.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 3,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.008,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_v3aa": {
+    "title": "Walking Tank",
+    "description": "Maximum protection. Layered armor plating makes you an immovable object  -  the horde breaks against you.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:netherite_chestplate"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 8,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_v3ab": {
+    "title": "Juggernaut",
+    "description": "Unstoppable mass. Raw HP combined with knockback immunity  -  nothing moves you from your position.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:obsidian"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 4,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_v3ba": {
+    "title": "Combat Stim",
+    "description": "Military-grade stimulants. Enhanced vitality AND reflexes  -  your body operates beyond normal limits.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:potion"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 4,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.012,
+          "operation": "addition"
+        }
+      }
+    ],
+    "cost": 1
+  },
+  "g_v3bb": {
+    "title": "Berserker Serum",
+    "description": "Experimental combat drugs. More health, more speed, AND your guns hit harder. Side effects? Who cares anymore.",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:dragon_breath"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.max_health",
+          "value": 2,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.005,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "tacz_attributes:gun_damage",
+          "value": 0.06,
+          "operation": "multiply_base"
+        }
+      }
+    ],
+    "cost": 1
+  }
+}

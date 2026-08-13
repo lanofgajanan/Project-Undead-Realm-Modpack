@@ -1,0 +1,146 @@
+{
+	"class_root": {
+		"definition": "class_root",
+		"x": 0,
+		"y": 0,
+		"root": true
+	},
+	"pick_gunner": {
+		"definition": "pick_gunner",
+		"x": -256,
+		"y": -128,
+		"root": false
+	},
+	"pick_brawler": {
+		"definition": "pick_brawler",
+		"x": -128,
+		"y": -192,
+		"root": false
+	},
+	"pick_technician": {
+		"definition": "pick_technician",
+		"x": 128,
+		"y": -192,
+		"root": false
+	},
+	"pick_medic": {
+		"definition": "pick_medic",
+		"x": 256,
+		"y": -128,
+		"root": false
+	},
+	"pick_ghost": {
+		"definition": "pick_ghost",
+		"x": 256,
+		"y": 128,
+		"root": false
+	},
+	"pick_chemist": {
+		"definition": "pick_chemist",
+		"x": 128,
+		"y": 192,
+		"root": false
+	},
+	"pick_recon": {
+		"definition": "pick_recon",
+		"x": -128,
+		"y": 192,
+		"root": false
+	},
+	"pick_breacher": {
+		"definition": "pick_breacher",
+		"x": -256,
+		"y": 128,
+		"root": false
+	},
+	"g_precision_1": {
+		"definition": "g_precision_1",
+		"x": -384,
+		"y": -192,
+		"root": false
+	},
+	"g_precision_2a": {
+		"definition": "g_precision_2a",
+		"x": -448,
+		"y": -256,
+		"root": false
+	},
+	"g_precision_2b": {
+		"definition": "g_precision_2b",
+		"x": -320,
+		"y": -256,
+		"root": false
+	},
+	"g_recoil_1": {
+		"definition": "g_recoil_1",
+		"x": -320,
+		"y": -320,
+		"root": false
+	},
+	"g_recoil_2a": {
+		"definition": "g_recoil_2a",
+		"x": -384,
+		"y": -384,
+		"root": false
+	},
+	"g_recoil_2b": {
+		"definition": "g_recoil_2b",
+		"x": -256,
+		"y": -384,
+		"root": false
+	},
+	"g_reload_1": {
+		"definition": "g_reload_1",
+		"x": -192,
+		"y": -320,
+		"root": false
+	},
+	"g_headshot_1": {
+		"definition": "g_headshot_1",
+		"x": -448,
+		"y": -128,
+		"root": false
+	},
+	"g_headshot_2a": {
+		"definition": "g_headshot_2a",
+		"x": -512,
+		"y": -192,
+		"root": false
+	},
+	"g_vitality_1": {
+		"definition": "g_vitality_1",
+		"x": -448,
+		"y": -64,
+		"root": false
+	},
+	"g_vitality_2a": {
+		"definition": "g_vitality_2a",
+		"x": -512,
+		"y": -64,
+		"root": false
+	},
+	"e8ragjf7y34vpxq6": {
+		"definition": "class_root",
+		"x": 32,
+		"y": -224,
+		"root": false
+	},
+	"9v3g440o8e8hkv4q": {
+		"definition": "class_root",
+		"x": 0,
+		"y": -224,
+		"root": false
+	},
+	"zriaqdp2y5ppqqw3": {
+		"definition": "g_reload_2b",
+		"x": -128,
+		"y": -448,
+		"root": false
+	},
+	"9u5ier3vnl7ofc7o": {
+		"definition": "g_reload_2a",
+		"x": -256,
+		"y": -448,
+		"root": false
+	}
+}

@@ -1,0 +1,48 @@
+{
+  "class_root": {
+    "x": 0,
+    "y": 0,
+    "definition": "class_root",
+    "root": true
+  },
+  "pick_gunner": {
+    "x": -100,
+    "y": -100,
+    "definition": "pick_gunner"
+  },
+  "pick_brawler": {
+    "x": 0,
+    "y": -100,
+    "definition": "pick_brawler"
+  },
+  "pick_technician": {
+    "x": 100,
+    "y": -100,
+    "definition": "pick_technician"
+  },
+  "pick_medic": {
+    "x": -100,
+    "y": 100,
+    "definition": "pick_medic"
+  },
+  "pick_ghost": {
+    "x": 0,
+    "y": 100,
+    "definition": "pick_ghost"
+  },
+  "pick_chemist": {
+    "x": 100,
+    "y": 100,
+    "definition": "pick_chemist"
+  },
+  "pick_recon": {
+    "x": -100,
+    "y": 0,
+    "definition": "pick_recon"
+  },
+  "pick_breacher": {
+    "x": 100,
+    "y": 0,
+    "definition": "pick_breacher"
+  }
+}

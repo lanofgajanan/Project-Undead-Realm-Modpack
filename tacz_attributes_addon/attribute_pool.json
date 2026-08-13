@@ -1,0 +1,530 @@
+{
+  "_comment": "Attribute pool configuration for TACZ Attributes Addon. Add, remove, or modify entries to customize which attributes can appear on guns.",
+  "_format": "attributeId: TACZ Attributes attribute ID | minValue/maxValue: value range for random generation | operation: MULTIPLY_BASE, ADDITION, or MULTIPLY_TOTAL | weight: selection frequency (higher \u003d more common) | rarityTier: 1-4 (1\u003dcommon, 4\u003depic, affects RARITY_ADAPTIVE mode) | applicableGunTypes: [] for all types, or list like [\"rifle\",\"smg\"] | buffThreshold: values above this are considered buffs (usually 0.0) | scoreWeight: rarity score contribution per unit value (negative for inverted attributes like recoil) | linkedAttribute: (optional) attributeId of a partner that must be selected together (e.g. ammo_recovery_chance needs ammo_recovery_amount to function) | weaponBlacklist: (optional) specific weapon IDs to always exclude (e.g. [\"tacz:rpg7\"]) | weaponWhitelist: (optional) specific weapon IDs to additionally allow regardless of gun type (e.g. [\"tacz:ak47\"])",
+  "attributes": [
+    {
+      "attributeId": "tacz_attributes:gun_damage",
+      "minValue": -0.2,
+      "maxValue": 0.3,
+      "operation": "MULTIPLY_BASE",
+      "weight": 20,
+      "rarityTier": 1,
+      "applicableGunTypes": [],
+      "buffThreshold": 0.0,
+      "scoreWeight": 500.0
+    },
+    {
+      "attributeId": "tacz_attributes:headshot_multiplier",
+      "minValue": -0.15,
+      "maxValue": 0.5,
+      "operation": "MULTIPLY_BASE",
+      "weight": 10,
+      "rarityTier": 2,
+      "applicableGunTypes": [
+        "sniper",
+        "rifle"
+      ],
+      "buffThreshold": 0.0,
+      "scoreWeight": 500.0
+    },
+    {
+      "attributeId": "tacz_attributes:hip_fire_accuracy",
+      "minValue": -0.2,
+      "maxValue": 0.4,
+      "operation": "MULTIPLY_BASE",
+      "weight": 15,
+      "rarityTier": 1,
+      "applicableGunTypes": [],
+      "buffThreshold": 0.0,
+      "scoreWeight": 250.0
+    },
+    {
+      "attributeId": "tacz_attributes:ads_accuracy",
+      "minValue": -0.1,
+      "maxValue": 0.3,
+      "operation": "MULTIPLY_BASE",
+      "weight": 15,
+      "rarityTier": 1,
+      "applicableGunTypes": [],
+      "buffThreshold": 0.0,
+      "scoreWeight": 100.0
+    },
+    {
+      "attributeId": "tacz_attributes:recoil",
+      "minValue": -0.5,
+      "maxValue": 0.5,
+      "operation": "MULTIPLY_BASE",
+      "weight": 18,
+      "rarityTier": 1,
+      "applicableGunTypes": [],
+      "buffThreshold": 0.0,
+      "scoreWeight": -200.0
+    },
+    {
+      "attributeId": "tacz_attributes:vertical_recoil",
+      "minValue": -0.4,
+      "maxValue": 0.4,
+      "operation": "MULTIPLY_BASE",
+      "weight": 12,
+      "rarityTier": 2,
+      "applicableGunTypes": [],
+      "buffThreshold": 0.0,
+      "scoreWeight": -200.0
+    },
+    {
+      "attributeId": "tacz_attributes:horizontal_recoil",
+      "minValue": -0.2,
+      "maxValue": 0.2,
+      "operation": "MULTIPLY_BASE",
+      "weight": 12,
+      "rarityTier": 2,
+      "applicableGunTypes": [],
+      "buffThreshold": 0.0,
+      "scoreWeight": -200.0
+    },
+    {
+      "attributeId": "tacz_attributes:reload_speed",
+      "minValue": -0.15,
+      "maxValue": 0.5,
+      "operation": "MULTIPLY_BASE",
+      "weight": 18,
+      "rarityTier": 1,
+      "applicableGunTypes": [],
+      "buffThreshold": 0.0,
+      "scoreWeight": 200.0
+    },
+    {
+      "attributeId": "tacz_attributes:bolt_action_speed",
+      "minValue": -0.1,
+      "maxValue": 0.25,
+      "operation": "MULTIPLY_BASE",
+      "weight": 10,
+      "rarityTier": 2,
+      "applicableGunTypes": [
+        "sniper",
+        "shotgun"
+      ],
+      "buffThreshold": 0.0,
+      "scoreWeight": 400.0
+    },
+    {
+      "attributeId": "tacz_attributes:draw_speed",
+      "minValue": -0.15,
+      "maxValue": 0.3,
+      "operation": "MULTIPLY_BASE",
+      "weight": 12,
+      "rarityTier": 1,
+      "applicableGunTypes": [],
+      "buffThreshold": 0.0,
+      "scoreWeight": 100.0
+    },
+    {
+      "attributeId": "tacz_attributes:ads_speed",
+      "minValue": -0.3,
+      "maxValue": 0.4,
+      "operation": "MULTIPLY_BASE",
+      "weight": 12,
+      "rarityTier": 1,
+      "applicableGunTypes": [],
+      "buffThreshold": 0.0,
+      "scoreWeight": 100.0
+    },
+    {
+      "attributeId": "tacz_attributes:rpm_multiplier",
+      "minValue": -0.1,
+      "maxValue": 0.2,
+      "operation": "MULTIPLY_BASE",
+      "weight": 8,
+      "rarityTier": 3,
+      "applicableGunTypes": [
+        "mg",
+        "pistol",
+        "shotgun",
+        "sniper",
+        "smg",
+        "rifle"
+      ],
+      "buffThreshold": 0.0,
+      "scoreWeight": 750.0
+    },
+    {
+      "attributeId": "tacz_attributes:gun_movement_speed",
+      "minValue": -0.1,
+      "maxValue": 0.15,
+      "operation": "MULTIPLY_BASE",
+      "weight": 10,
+      "rarityTier": 2,
+      "applicableGunTypes": [],
+      "buffThreshold": 0.0,
+      "scoreWeight": 300.0
+    },
+    {
+      "attributeId": "tacz_attributes:magazine_capacity",
+      "minValue": -0.3,
+      "maxValue": 0.3,
+      "operation": "MULTIPLY_BASE",
+      "weight": 15,
+      "rarityTier": 2,
+      "applicableGunTypes": [
+        "mg",
+        "pistol",
+        "shotgun",
+        "sniper",
+        "smg",
+        "rifle"
+      ],
+      "buffThreshold": 0.0,
+      "scoreWeight": 300.0
+    },
+    {
+      "attributeId": "tacz_attributes:ammo_save_chance",
+      "minValue": 0.0,
+      "maxValue": 0.15,
+      "operation": "ADDITION",
+      "weight": 8,
+      "rarityTier": 3,
+      "applicableGunTypes": [
+        "mg",
+        "pistol",
+        "shotgun",
+        "sniper",
+        "smg",
+        "rifle"
+      ],
+      "buffThreshold": 0.0,
+      "scoreWeight": 200.0
+    },
+    {
+      "attributeId": "tacz_attributes:reload_ammo_save_chance",
+      "minValue": 0.0,
+      "maxValue": 0.1,
+      "operation": "ADDITION",
+      "weight": 6,
+      "rarityTier": 3,
+      "applicableGunTypes": [
+        "mg",
+        "pistol",
+        "shotgun",
+        "sniper",
+        "smg",
+        "rifle"
+      ],
+      "buffThreshold": 0.0,
+      "scoreWeight": 1000.0
+    },
+    {
+      "attributeId": "tacz_attributes:ammo_recovery_chance",
+      "minValue": 0.0,
+      "maxValue": 0.2,
+      "operation": "ADDITION",
+      "weight": 6,
+      "rarityTier": 3,
+      "applicableGunTypes": [
+        "mg",
+        "pistol",
+        "shotgun",
+        "sniper",
+        "smg",
+        "rifle"
+      ],
+      "buffThreshold": 0.0,
+      "scoreWeight": 400.0,
+      "linkedAttribute": "tacz_attributes:ammo_recovery_amount"
+    },
+    {
+      "attributeId": "tacz_attributes:ammo_recovery_amount",
+      "minValue": 0.0,
+      "maxValue": 5.0,
+      "operation": "ADDITION",
+      "weight": 5,
+      "rarityTier": 3,
+      "applicableGunTypes": [
+        "mg",
+        "pistol",
+        "shotgun",
+        "sniper",
+        "smg",
+        "rifle"
+      ],
+      "buffThreshold": 0.0,
+      "scoreWeight": 10.0,
+      "linkedAttribute": "tacz_attributes:ammo_recovery_chance"
+    },
+    {
+      "attributeId": "tacz_attributes:ammo_recovery_percent",
+      "minValue": 0.0,
+      "maxValue": 0.5,
+      "operation": "ADDITION",
+      "weight": 4,
+      "rarityTier": 4,
+      "applicableGunTypes": [
+        "mg",
+        "pistol",
+        "shotgun",
+        "sniper",
+        "smg",
+        "rifle"
+      ],
+      "buffThreshold": 0.0,
+      "scoreWeight": 200.0,
+      "linkedAttribute": "tacz_attributes:ammo_recovery_chance"
+    },
+    {
+      "attributeId": "tacz_attributes:bonus_ammo_chance",
+      "minValue": 0.0,
+      "maxValue": 0.15,
+      "operation": "ADDITION",
+      "weight": 5,
+      "rarityTier": 3,
+      "applicableGunTypes": [
+        "mg",
+        "pistol",
+        "shotgun",
+        "sniper",
+        "smg",
+        "rifle"
+      ],
+      "buffThreshold": 0.0,
+      "scoreWeight": 600.0,
+      "linkedAttribute": "tacz_attributes:bonus_ammo_amount"
+    },
+    {
+      "attributeId": "tacz_attributes:bonus_ammo_amount",
+      "minValue": 0.0,
+      "maxValue": 5.0,
+      "operation": "ADDITION",
+      "weight": 4,
+      "rarityTier": 3,
+      "applicableGunTypes": [
+        "mg",
+        "pistol",
+        "shotgun",
+        "sniper",
+        "smg",
+        "rifle"
+      ],
+      "buffThreshold": 0.0,
+      "scoreWeight": 10.0,
+      "linkedAttribute": "tacz_attributes:bonus_ammo_chance"
+    },
+    {
+      "attributeId": "tacz_attributes:bonus_ammo_percent",
+      "minValue": 0.0,
+      "maxValue": 0.5,
+      "operation": "ADDITION",
+      "weight": 4,
+      "rarityTier": 3,
+      "applicableGunTypes": [
+        "mg",
+        "pistol",
+        "shotgun",
+        "sniper",
+        "smg",
+        "rifle"
+      ],
+      "buffThreshold": 0.0,
+      "scoreWeight": 200.0,
+      "linkedAttribute": "tacz_attributes:bonus_ammo_chance"
+    },
+    {
+      "attributeId": "tacz_attributes:knockback_multiplier",
+      "minValue": 0.0,
+      "maxValue": 1.4,
+      "operation": "MULTIPLY_BASE",
+      "weight": 8,
+      "rarityTier": 2,
+      "applicableGunTypes": [],
+      "buffThreshold": 0.0,
+      "scoreWeight": 40.0
+    },
+    {
+      "attributeId": "tacz_attributes:knockback_base",
+      "minValue": 0.0,
+      "maxValue": 1.2,
+      "operation": "ADDITION",
+      "weight": 6,
+      "rarityTier": 2,
+      "applicableGunTypes": [
+        "smg",
+        "pistol",
+        "shotgun"
+      ],
+      "buffThreshold": 0.0,
+      "scoreWeight": 50.0
+    },
+    {
+      "attributeId": "tacz_attributes:pierce_multiplier",
+      "minValue": -0.1,
+      "maxValue": 1.3,
+      "operation": "MULTIPLY_BASE",
+      "weight": 6,
+      "rarityTier": 3,
+      "applicableGunTypes": [
+        "mg",
+        "pistol",
+        "shotgun",
+        "sniper",
+        "smg",
+        "rifle"
+      ],
+      "buffThreshold": 0.0,
+      "scoreWeight": 100.0
+    },
+    {
+      "attributeId": "tacz_attributes:auto_damage",
+      "minValue": -0.1,
+      "maxValue": 0.2,
+      "operation": "MULTIPLY_BASE",
+      "weight": 8,
+      "rarityTier": 2,
+      "applicableGunTypes": [
+        "mg",
+        "rifle",
+        "pistol",
+        "smg"
+      ],
+      "buffThreshold": 0.0,
+      "scoreWeight": 500.0
+    },
+    {
+      "attributeId": "tacz_attributes:auto_accuracy",
+      "minValue": -0.15,
+      "maxValue": 0.25,
+      "operation": "MULTIPLY_BASE",
+      "weight": 8,
+      "rarityTier": 2,
+      "applicableGunTypes": [
+        "mg",
+        "rifle",
+        "pistol",
+        "smg"
+      ],
+      "buffThreshold": 0.0,
+      "scoreWeight": 400.0
+    },
+    {
+      "attributeId": "tacz_attributes:semi_damage",
+      "minValue": -0.1,
+      "maxValue": 0.2,
+      "operation": "MULTIPLY_BASE",
+      "weight": 8,
+      "rarityTier": 2,
+      "applicableGunTypes": [],
+      "buffThreshold": 0.0,
+      "scoreWeight": 500.0
+    },
+    {
+      "attributeId": "tacz_attributes:semi_accuracy",
+      "minValue": -0.15,
+      "maxValue": 0.25,
+      "operation": "MULTIPLY_BASE",
+      "weight": 8,
+      "rarityTier": 2,
+      "applicableGunTypes": [],
+      "buffThreshold": 0.0,
+      "scoreWeight": 400.0
+    },
+    {
+      "attributeId": "tacz_attributes:burst_damage",
+      "minValue": -0.1,
+      "maxValue": 0.2,
+      "operation": "MULTIPLY_BASE",
+      "weight": 6,
+      "rarityTier": 2,
+      "applicableGunTypes": [
+        "pistol",
+        "smg",
+        "rifle"
+      ],
+      "buffThreshold": 0.0,
+      "scoreWeight": 500.0
+    },
+    {
+      "attributeId": "tacz_attributes:burst_accuracy",
+      "minValue": -0.15,
+      "maxValue": 0.25,
+      "operation": "MULTIPLY_BASE",
+      "weight": 6,
+      "rarityTier": 2,
+      "applicableGunTypes": [
+        "pistol",
+        "smg",
+        "rifle"
+      ],
+      "buffThreshold": 0.0,
+      "scoreWeight": 400.0
+    },
+    {
+      "attributeId": "tacz_attributes:burst_speed",
+      "minValue": -0.1,
+      "maxValue": 0.2,
+      "operation": "MULTIPLY_BASE",
+      "weight": 5,
+      "rarityTier": 3,
+      "applicableGunTypes": [
+        "pistol",
+        "smg",
+        "rifle"
+      ],
+      "buffThreshold": 0.0,
+      "scoreWeight": 250.0
+    },
+    {
+      "attributeId": "tacz_attributes:hip_fire_damage",
+      "minValue": -0.1,
+      "maxValue": 0.2,
+      "operation": "MULTIPLY_BASE",
+      "weight": 8,
+      "rarityTier": 2,
+      "applicableGunTypes": [
+        "smg",
+        "pistol",
+        "shotgun"
+      ],
+      "buffThreshold": 0.0,
+      "scoreWeight": 400.0
+    },
+    {
+      "attributeId": "tacz_attributes:ads_damage",
+      "minValue": -0.1,
+      "maxValue": 0.2,
+      "operation": "MULTIPLY_BASE",
+      "weight": 8,
+      "rarityTier": 2,
+      "applicableGunTypes": [
+        "sniper",
+        "rifle"
+      ],
+      "buffThreshold": 0.0,
+      "scoreWeight": 500.0
+    },
+    {
+      "attributeId": "tacz_attributes:semi_bullet_amount",
+      "minValue": 0.0,
+      "maxValue": 0.5,
+      "operation": "MULTIPLY_BASE",
+      "weight": 3,
+      "rarityTier": 4,
+      "applicableGunTypes": [
+        "shotgun"
+      ],
+      "buffThreshold": 0.0,
+      "scoreWeight": 200.0
+    },
+    {
+      "attributeId": "tacz_attributes:auto_bullet_amount",
+      "minValue": 0.0,
+      "maxValue": 0.3,
+      "operation": "MULTIPLY_BASE",
+      "weight": 3,
+      "rarityTier": 4,
+      "applicableGunTypes": [
+        "shotgun"
+      ],
+      "buffThreshold": 0.0,
+      "scoreWeight": 200.0
+    }
+  ],
+  "_attributeGroupsFormat": "attributeGroups: (optional) define groups of similar attributes with a limit on how many from the group can appear on a single gun. name: group identifier | maxFromGroup: max attributes from this group per gun | attributes: list of attribute IDs in this group",
+  "attributeGroups": []
+}

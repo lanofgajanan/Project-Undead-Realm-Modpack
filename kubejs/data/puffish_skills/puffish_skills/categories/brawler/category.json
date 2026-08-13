@@ -1,0 +1,11 @@
+{
+  "unlocked_by_default": false,
+  "title": "Brawler",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "minecraft:iron_sword"
+    }
+  },
+  "background": "minecraft:textures/block/deepslate.png"
+}
