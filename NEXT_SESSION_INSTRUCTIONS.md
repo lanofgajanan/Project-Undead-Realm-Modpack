@@ -4,7 +4,7 @@
 Completely rework all 8 class skill trees for THE UNDEAD REALM modpack. The current trees are bland — every node is just a stat modifier (attribute +0.X). The new trees should have unique abilities, on-kill effects, conditional bonuses, and interesting choices.
 
 ## Modpack Location
-`d:\Gajanan\project undead realm\UNDEAD REALM MODPACK\`
+`<local project root>\UNDEAD REALM MODPACK\`
 
 ## Skill Tree Files Location
 `UNDEAD REALM MODPACK\kubejs\data\puffish_skills\puffish_skills\categories\`
